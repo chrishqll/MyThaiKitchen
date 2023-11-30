@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062122702949",
+    "firebase_url": "https://my-thai-kitchen-1dc99-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "my-thai-kitchen-1dc99",
+    "storage_bucket": "my-thai-kitchen-1dc99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062122702949:android:ad8a8f0a0abf391436de8c",
+        "android_client_info": {
+          "package_name": "com.example.mythaikitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062122702949-5rat8r6oc1am0hntdfvqc6etvik686og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mythaikitchen",
+            "certificate_hash": "0178190c8d51a81ea401151fab31054f087adc0a"
+          }
+        },
+        {
+          "client_id": "1062122702949-the7i4lu3kmh1uf5h2nrp8f8ssfd9956.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByRLnC47k91_84twi8WepZFRwM9kmT6wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062122702949-the7i4lu3kmh1uf5h2nrp8f8ssfd9956.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

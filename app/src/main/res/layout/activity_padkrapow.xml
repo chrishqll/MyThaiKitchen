@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/padkrapowblank"
+        tools:context=".padkrapow">
+
+    <ImageButton
+            android:id="@+id/back"
+            android:background="@drawable/back"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-354dp"
+            android:translationX="-139dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/stock"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-171dp"
+            android:translationX="63dp"
+            android:layout_width="130dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/itemtotal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="59dp"
+            android:translationX="89dp"
+            android:layout_width="130dp"
+            android:layout_height="50dp"/>
+
+    <ImageView
+            android:background="@drawable/quantity"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="190dp"
+            android:translationX="-85dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"/>
+
+    <ImageButton
+            android:id="@+id/plus"
+            android:background="@drawable/plus"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="230dp"
+            android:translationX="-124dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    <ImageButton
+            android:id="@+id/minus"
+            android:background="@drawable/minus"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="230dp"
+            android:translationX="-44dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    <ImageButton
+            android:id="@+id/next"
+            android:background="@drawable/rednext"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="190dp"
+            android:translationX="85dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"/>
+
+    <ImageButton
+            android:id="@+id/home"
+            android:background="@drawable/home2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="-124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/basket"
+            android:background="@drawable/basket"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="0dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/orders"
+            android:background="@drawable/time"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/chicken"
+            android:background="@drawable/chickenpressed"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-53dp"
+            android:translationX="0dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/pig"
+            android:background="@drawable/porkpressed"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-53dp"
+            android:translationX="118dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/cow"
+            android:background="@drawable/beefpressed"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-53dp"
+            android:translationX="-118dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/quantity"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="150dp"
+            android:translationX="-85dp"
+            android:layout_width="130dp"
+            android:layout_height="50dp"/>
+
+</RelativeLayout>

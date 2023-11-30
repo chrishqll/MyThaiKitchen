@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/usersettingsblank"
+        tools:context=".editUserSettings">
+
+    <EditText
+            android:id="@+id/city"
+            android:background="@drawable/text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-240dp"
+            android:layout_width="330dp"
+            android:layout_height="63dp"
+            android:inputType="textPersonName"/>
+
+    <EditText
+            android:id="@+id/postcode"
+            android:background="@drawable/text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-126dp"
+            android:layout_width="330dp"
+            android:layout_height="63dp"
+            android:inputType="textPersonName"/>
+
+    <EditText
+            android:id="@+id/street"
+            android:background="@drawable/text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-12dp"
+            android:layout_width="337dp"
+            android:layout_height="63dp"
+            android:inputType="textPersonName"/>
+
+    <EditText
+            android:id="@+id/houseNumber"
+            android:background="@drawable/text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="102dp"
+            android:layout_width="337dp"
+            android:layout_height="63dp"
+            android:inputType="textPersonName"/>
+
+    <TextView
+            android:text=""
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/citypretxt"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-260dp"
+            android:layout_width="337dp"
+            android:layout_height="20dp"/>
+    <TextView
+            android:text=""
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/postcodepretxt"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-146dp"
+            android:layout_width="337dp"
+            android:layout_height="20dp"/>
+    <TextView
+            android:text=""
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/streetpretxt"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-32dp"
+            android:layout_width="337dp"
+            android:layout_height="20dp"/>
+    <TextView
+            android:text=""
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/houseNumberpretxt"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="82dp"
+            android:layout_width="337dp"
+            android:layout_height="20dp"/>
+
+    <ImageButton
+            android:id="@+id/confirmBt"
+            android:background="@drawable/rednext"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="290dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"/>
+
+</RelativeLayout>

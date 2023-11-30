@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ordersblank"
+        tools:context=".orders">
+
+    <ImageButton
+            android:id="@+id/history"
+            android:background="@drawable/history"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-354dp"
+            android:translationX="139dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/address"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-215dp"
+            android:translationX="0dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratblack"
+            android:id="@+id/paymentMethod"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="140dp"
+            android:translationX="-84dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"/>
+
+    <TextView
+            android:text="Orders Are Sent Through Deliveroo"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="190dp"
+            android:translationX="84dp"
+            android:layout_width="120dp"
+            android:layout_height="140dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="60dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratmedium"
+            android:id="@+id/orderid"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="-98dp"
+            android:translationX="0dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"/>
+
+    <ImageButton
+            android:id="@+id/currentbasket"
+            android:background="@drawable/basketicon"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="40dp"
+            android:translationX="0dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/confirm"
+            android:background="@drawable/tick"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="40dp"
+            android:translationX="118dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/call"
+            android:background="@drawable/call"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="40dp"
+            android:translationX="-118dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <TextView
+            android:text=""
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserratblack"
+            android:id="@+id/totalcost"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:translationY="190dp"
+            android:translationX="-84dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"/>
+
+
+    <ImageButton
+            android:id="@+id/home"
+            android:background="@drawable/home"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="-124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/basket"
+            android:background="@drawable/basket"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="0dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/orders"
+            android:background="@drawable/time2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+</RelativeLayout>

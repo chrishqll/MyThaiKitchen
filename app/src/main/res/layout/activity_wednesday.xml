@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wednesdayblank"
+        tools:context=".wednesday">
+
+    <ImageButton
+            android:id="@+id/schedule"
+            android:background="@drawable/calender"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-354dp"
+            android:translationX="76dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    <ImageButton
+            android:id="@+id/editUser"
+            android:background="@drawable/user"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-354dp"
+            android:translationX="139dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    <ImageButton
+            android:id="@+id/food1"
+            android:background="@drawable/chickensatay"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-194dp"
+            android:layout_width="330dp"
+            android:layout_height="126dp"/>
+
+    <ImageButton
+            android:id="@+id/food2"
+            android:background="@drawable/stirfry"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="-42dp"
+            android:layout_width="330dp"
+            android:layout_height="126dp"/>
+
+    <ImageButton
+            android:id="@+id/crabRangoons"
+            android:background="@drawable/crab"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="148dp"
+            android:translationX="-115dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/steamedRice"
+            android:background="@drawable/rice"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="148dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/springRolls"
+            android:background="@drawable/springrolls"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="148dp"
+            android:translationX="115dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"/>
+
+    <ImageButton
+            android:id="@+id/home"
+            android:background="@drawable/home2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="-124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/basket"
+            android:background="@drawable/basket"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="0dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    <ImageButton
+            android:id="@+id/orders"
+            android:background="@drawable/time"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:translationY="332dp"
+            android:translationX="124dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+</RelativeLayout>
