@@ -1,5 +1,6 @@
 **Note**
 
+
 This programme **does not work anymore** because the API keys for Firebase expired.
 
 It uses a now out-of-date Android SDK and Gradle version.
@@ -11,6 +12,7 @@ It uses a now out-of-date Android SDK and Gradle version.
 A custom food ordering and delivery Android application for a restaurant, written using Android Studio.
 
 **Features**
+
 
 User sign-up, log-in authentication
 
@@ -26,6 +28,7 @@ Clean and attractive UI
 
 **Built With**
 
+
 Java
 
 Android Studio
@@ -37,6 +40,7 @@ Gradle
 Firebase
 
 **Installation**
+
 
 1. Clone the repository: git clone https://github.com/chrishqll/mythaikitchen.git
 2. Open the project in Android Studio
